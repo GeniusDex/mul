@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="subscription.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="worker_thread.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{c10f12ef-c6ba-44db-bbb9-9b75f5d8793f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mul">
+      <UniqueIdentifier>{427b2a63-e76a-4f28-b28c-6a67c0d62974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mul\event.h">
+      <Filter>mul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mul\subscription.h">
+      <Filter>mul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mul\worker_thread.h">
+      <Filter>mul</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
